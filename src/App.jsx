@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Skills from './components/Skills'
 import Premium from './components/Premium'
 import Why from './components/Why'
+import Demo from './components/Demo'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills/>
       <Premium/>
       <Why/>
+      <Demo/>
     </React.Fragment>
   )
 }
