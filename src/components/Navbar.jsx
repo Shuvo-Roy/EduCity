@@ -39,7 +39,7 @@ export default function Navbar() {
 
 
   return (
-    <header className='w-full bg-white fixed top-0 left-0 right-0'>
+    <header className='w-full top-0 left-0 right-0'>
     <nav className={`py-2 w-10/12 m-auto ${isMenuSticky ? "sticky top-0 left-0 right-0 duration-300" : ""}`}>
         <div className='flex justify-between items-center text-base gap-8 border rounded-lg p-2'>
             <a href='' className='flex items-center justify-center space-x-3'>
