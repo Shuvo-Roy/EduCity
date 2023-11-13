@@ -8,6 +8,7 @@ import Why from './components/Why'
 import Demo from './components/Demo'
 import Reviews from './components/Reviews'
 import Subscribe from './components/Subscribe'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Demo/>
       <Reviews/>
       <Subscribe/>
+      <Footer/>
     </React.Fragment>
   )
 }
