@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Premium from './components/Premium'
 import Why from './components/Why'
 import Demo from './components/Demo'
+import Reviews from './components/Reviews'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Premium/>
       <Why/>
       <Demo/>
+      <Reviews/>
     </React.Fragment>
   )
 }
