@@ -7,6 +7,7 @@ import Premium from './components/Premium'
 import Why from './components/Why'
 import Demo from './components/Demo'
 import Reviews from './components/Reviews'
+import Subscribe from './components/Subscribe'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Why/>
       <Demo/>
       <Reviews/>
+      <Subscribe/>
     </React.Fragment>
   )
 }
