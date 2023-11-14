@@ -16,7 +16,7 @@ export default function Items() {
       name: "Database",
     },
     {
-      id: 3,
+      id: 4,
       name: "AI",
     },
   ];
@@ -35,19 +35,18 @@ export default function Items() {
         </ul>
       </div>
       <div className="flex items-center justify-center py-4 gap-4">
-        <div class="relative text-gray-600 focus-within:text-gray-400 w-2/4">
+        <div className="relative text-gray-600 focus-within:text-gray-400 w-2/4">
           
           <input
             type="search"
             name="q"
-            class="py-4 px-8 text-sm text-white rounded-md focus:outline-none focus:bg-white focus:text-gray-900 w-full"
+            className="py-4 px-8 text-sm text-white rounded-md focus:outline-none focus:bg-white focus:text-gray-900 w-full"
             placeholder="Search Courses, Teacher name"
-            autocomplete="off"
           />
-          <span class="absolute inset-y-0 right-0 flex items-center pr-2">
+          <span className="absolute inset-y-0 right-0 flex items-center pr-2">
             <button
               type="submit"
-              class="p-1 focus:outline-none focus:shadow-outline"
+              className="p-1 focus:outline-none focus:shadow-outline"
             >
               <BiSearch/>
             </button>

@@ -73,7 +73,7 @@ export default function Navbar() {
         {/** nav item for responsive */}
         <div className={`space-y-4 px-4 py-2 mt-28 bg-bgBack ${isMenuOpen ? "block fixed top-0 left-0 right-0":"hidden"}`}>
         {
-                navItems.map(({link,path})=> <Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block text-base  text-textColor hover:text-gray-700 first:font-medium'>{link}</Link>)
+                navItems.map(({link,path})=> <Link to={path}  offset={-100} key={path} className='block text-base  text-textColor hover:text-gray-700 first:font-medium'>{link}</Link>)
             }
         </div>
     </nav>
