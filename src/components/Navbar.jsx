@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {FaBars, FaXmark} from 'react-icons/fa6'
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     const [isMenuSticky, setIsMenuSticky] = useState(false)
@@ -30,7 +30,7 @@ export default function Navbar() {
     //navigations items 
     const navItems = [
         {link:"Home", path: "home"},
-        {link:"Courses", path: "Courses"},
+        {link:"Courses", path: "courses"},
         {link:"Teacher", path: "teacher"},
         {link:"How to use", path: "use"},
         {link:"About Us", path: "aboutus"},
@@ -48,7 +48,7 @@ export default function Navbar() {
             {/** nav items for large devices */}
             <ul className='md:flex space-x-12 hidden'>
             {
-                navItems.map(({link,path})=> <Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block text-xl  text-textColor hover:text-Orange first:text-Orange'>{link}</Link>)
+                navItems.map(({link,path})=> <Link to={path} key={path} className='block text-xl  text-textColor hover:text-Orange active:text-Orange'>{link}</Link>)
             }
             </ul>
 
