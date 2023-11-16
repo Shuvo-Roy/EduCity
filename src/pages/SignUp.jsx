@@ -12,12 +12,12 @@ export default function SignUp() {
             </h1>
             <form className="w-full max-w-lg">
               <div className="flex flex-wrap -mx-3 mb-6 gap-4">
-                <div className="w-full md:w-1/2 px-3 md:mb-0">
+                <div className="w-full px-3 md:mb-0">
                   <label
                     className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
                     for="grid-first-name"
                   >
-                    First Name
+                    Your Name
                   </label>
                   <input
                     className="appearance-none block w-full text-slate-700 border border-red rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
@@ -29,21 +29,7 @@ export default function SignUp() {
                     Please fill out this field.
                   </p>
                 </div>
-                <div className="w-full md:w-1/2 px-3">
-                  <label
-                    className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-                    for="grid-last-name"
-                  >
-                    Last Name
-                  </label>
-                  <input
-                    className="appearance-none block w-full  text-slate-700 border border-slate-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
-                    id="grid-last-name"
-                    type="text"
-                    placeholder="Doe"
-                  />
-                </div>
-                <div className="w-full md:w-1/2 px-3">
+                <div className="w-full px-3">
                   <label
                     className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
                     for="grid-last-name"
@@ -57,7 +43,7 @@ export default function SignUp() {
                     placeholder="College/institute name"
                   />
                 </div>
-                <div className="w-full md:w-1/2 px-3">
+                <div className="w-full px-3">
                   <label
                     className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
                     for="grid-last-name"
