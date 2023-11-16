@@ -5,6 +5,7 @@ import Layout from './Layout'
 import Landing from './pages/Landing'
 import Courses from './pages/Courses'
 import CourseDetail from './pages/CourseDetail'
+import Teachers from './pages/Teachers'
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path:"/course/:id",
         element: <CourseDetail/>,
+      },
+      {
+        path:"/teachers",
+        element: <Teachers/>,
       }
     ]
   }

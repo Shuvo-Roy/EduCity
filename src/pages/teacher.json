@@ -1,0 +1,242 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Sophia Rodriguez",
+    "image": "https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg",
+    "total_courses": 2,
+    "average_rating": 4.6,
+    "teaching_field": "AI",
+    "graduate": true,
+    "experience": "Ph.D. in Artificial Intelligence with 10+ years in AI research and development",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/sophia-rodriguez",
+      "twitter": "https://twitter.com/sophiarod",
+      "website": "https://www.sophiarodriguez.ai"
+    },
+    "about": "Dr. Sophia Rodriguez is a seasoned AI researcher with a passion for teaching. She holds a Ph.D. in Artificial Intelligence and has been actively contributing to the field for over a decade."
+  },
+  {
+    "id": "2",
+    "name": "Prof. Kevin Adams",
+    "image": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg",
+    "total_courses": 1,
+    "average_rating": 4.9,
+    "teaching_field": "Web",
+    "graduate": true,
+    "experience": "15+ years in Full-Stack Web Development",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/kevin-adams",
+      "twitter": "https://twitter.com/kevinadams",
+      "website": "https://www.kevinadams.dev"
+    },
+    "about": "Prof. Kevin Adams brings extensive experience in Full-Stack Web Development. With over 15 years in the industry, he is dedicated to sharing practical insights and best practices."
+  },
+  {
+    "id": "3",
+    "name": "Dr. Linda Turner",
+    "image": "https://img.freepik.com/free-photo/portrait-beautiful-girl-with-short-ginger-hair-looks-with-happy-relaxed-expression_273609-30416.jpg",
+    "total_courses": 1,
+    "average_rating": 4.7,
+    "teaching_field": "Database",
+    "graduate": true,
+    "experience": "Ph.D. in Database Management with expertise in SQL and NoSQL databases",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/linda-turner",
+      "twitter": "https://twitter.com/lindaturner",
+      "website": "https://www.lindaturner-db.com"
+    },
+    "about": "Dr. Linda Turner specializes in Database Management with a focus on SQL and NoSQL databases. She holds a Ph.D. and is dedicated to fostering a deep understanding of database concepts."
+  },
+  {
+    "id": "4",
+    "name": "Prof. Daniel White",
+    "image": "https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg",
+    "total_courses": 1,
+    "average_rating": 4.75,
+    "teaching_field": "Computer Science",
+    "graduate": true,
+    "experience": "M.Sc. in Computer Science with expertise in algorithms and data structures",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/daniel-white",
+      "twitter": "https://twitter.com/danielwhite",
+      "website": "https://www.danielwhite-cs.com"
+    },
+    "about": "Prof. Daniel White holds an M.Sc. in Computer Science and specializes in algorithms and data structures. With a passion for teaching, he aims to make complex concepts accessible to all."
+  },
+  {
+    "id": "5",
+    "name": "Dr. Emily Clark",
+    "image": "https://img.freepik.com/free-photo/lifestyle-people-emotions-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-help-listening-coworkers-taking-part-conversation_1258-59335.jpg",
+    "total_courses": 1,
+    "average_rating": 4.85,
+    "teaching_field": "Web",
+    "graduate": true,
+    "experience": "Ph.D. in Web Development with expertise in frontend technologies",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/emily-clark",
+      "twitter": "https://twitter.com/emilyclark",
+      "website": "https://www.emilyclark-webdev.com"
+    },
+    "about": "Dr. Emily Clark holds a Ph.D. in Web Development and specializes in frontend technologies. Her courses focus on creating engaging and responsive web interfaces."
+  },
+  {
+    "id": "6",
+    "name": "Prof. Maria Sanchez",
+    "image": "https://img.freepik.com/free-photo/friendly-smiling-woman-looking-pleased-front_176420-20779.jpg",
+    "total_courses": 1,
+    "average_rating": 4.6,
+    "teaching_field": "Database",
+    "graduate": true,
+    "experience": "M.Sc. in Database Management with expertise in relational databases",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/maria-sanchez",
+      "twitter": "https://twitter.com/mariasanchez",
+      "website": "https://www.mariasanchez-db.com"
+    },
+    "about": "Prof. Maria Sanchez holds an M.Sc. in Database Management and specializes in relational databases. Her courses provide practical insights into database design and management."
+  },
+  {
+    "id": "7",
+    "name": "Dr. Jonathan Lee",
+    "image": "https://img.freepik.com/free-photo/portrait-young-handsome-man-jean-shirt-smiling-with-crossed-arms_176420-12083.jpg",
+    "total_courses": 1,
+    "average_rating": 4.75,
+    "teaching_field": "AI",
+    "graduate": true,
+    "experience": "Ph.D. in Artificial Intelligence with a focus on machine learning",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/jonathan-lee",
+      "twitter": "https://twitter.com/jonathanlee",
+      "website": "https://www.jonathanlee-ai.com"
+    },
+    "about": "Dr. Jonathan Lee holds a Ph.D. in Artificial Intelligence with a focus on machine learning. He is passionate about demystifying AI concepts for students."
+  },
+  {
+    "id": "8",
+    "name": "Prof. Christopher Brown",
+    "image": "https://img.freepik.com/free-photo/handsome-bearded-businessman-rubbing-hands-having-deal_176420-18778.jpg",
+    "total_courses": 1,
+    "average_rating": 4.85,
+    "teaching_field": "Web",
+    "graduate": true,
+    "experience": "15+ years in Full-Stack Web Development",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/christopher-brown",
+      "twitter": "https://twitter.com/christopherbrown",
+      "website": "https://www.christopherbrown.dev"
+    },
+    "about": "Prof. Christopher Brown has over 15 years of experience in Full-Stack Web Development. His courses focus on building modern and scalable web applications."
+  },
+  {
+    "id": "9",
+    "name": "Dr. Robert Turner",
+    "image": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg",
+    "total_courses": 1,
+    "average_rating": 4.65,
+    "teaching_field": "Database",
+    "graduate": true,
+    "experience": "Ph.D. in Database Management with expertise in NoSQL databases",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/robert-turner",
+      "twitter": "https://twitter.com/robertturner",
+      "website": "https://www.robertturner-db.com"
+    },
+    "about": "Dr. Robert Turner holds a Ph.D. in Database Management with expertise in NoSQL databases. His courses cover advanced topics in database design and optimization."
+  },
+  {
+    "id": "10",
+    "name": "Prof. Emma Davis",
+    "image": "https://img.freepik.com/free-photo/young-blond-wonan-plaid-shirt-cross-arms-chest-smiling-with-confidence-standing-white-wall_176420-40326.jpg",
+    "total_courses": 1,
+    "average_rating": 4.75,
+    "teaching_field": "Web",
+    "graduate": true,
+    "experience": "M.Sc. in Web Development with expertise in frontend frameworks",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/emma-davis",
+      "twitter": "https://twitter.com/emmadavis",
+      "website": "https://www.emmadavis-webdev.com"
+    },
+    "about": "Prof. Emma Davis holds an M.Sc. in Web Development and specializes in frontend frameworks. Her courses emphasize creating interactive and dynamic web applications."
+  },
+  {
+    "id": "11",
+    "name": "Dr. William Garcia",
+    "image": "https://img.freepik.com/free-photo/business-finance-employment-female-successful-entrepreneurs-concept-friendly-smiling-office-manager-greeting-new-coworker-businesswoman-welcome-clients-with-hand-wave-hold-laptop_1258-59122.jpg",
+    "total_courses": 1,
+    "average_rating": 4.8,
+    "teaching_field": "Web",
+    "graduate": true,
+    "experience": "Ph.D. in Web Development with a focus on user experience",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/william-garcia",
+      "twitter": "https://twitter.com/williamgarcia",
+      "website": "https://www.williamgarcia-webdev.com"
+    },
+    "about": "Dr. William Garcia holds a Ph.D. in Web Development with a focus on user experience. His courses blend design principles with practical web development skills."
+  },
+  {
+    "id": "12",
+    "name": "Prof. Jennifer White",
+    "image": "https://img.freepik.com/free-photo/businesswoman-executive-professional-success-concept_53876-137644.jpg",
+    "total_courses": 1,
+    "average_rating": 4.75,
+    "teaching_field": "Database",
+    "graduate": true,
+    "experience": "15+ years in Database Administration and Management",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/jennifer-white",
+      "twitter": "https://twitter.com/jenniferwhite",
+      "website": "https://www.jenniferwhite-db.com"
+    },
+    "about": "Prof. Jennifer White has over 15 years of experience in Database Administration and Management. Her courses cover practical aspects of database design and optimization."
+  },
+  {
+    "id": "13",
+    "name": "Dr. Sarah Miller",
+    "image": "https://img.freepik.com/free-photo/displeased-young-caucasian-businesswoman-with-crossed-arms_1262-17013.jpg",
+    "total_courses": 1,
+    "average_rating": 4.85,
+    "teaching_field": "Web",
+    "graduate": true,
+    "experience": "Ph.D. in Web Development with expertise in backend technologies",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/sarah-miller",
+      "twitter": "https://twitter.com/sarahmiller",
+      "website": "https://www.sarahmiller-webdev.com"
+    },
+    "about": "Dr. Sarah Miller holds a Ph.D. in Web Development with expertise in backend technologies. Her courses focus on building robust and scalable web applications."
+  },
+  {
+    "id": "14",
+    "name": "Prof. Daniel Turner",
+    "image": "https://img.freepik.com/free-photo/man-isolated-showing-emotions-end-gestures_1303-30095.jpg",
+    "total_courses": 1,
+    "average_rating": 4.6,
+    "teaching_field": "Database",
+    "graduate": true,
+    "experience": "M.Sc. in Database Management with expertise in relational databases",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/daniel-turner",
+      "twitter": "https://twitter.com/danielturner",
+      "website": "https://www.danielturner-db.com"
+    },
+    "about": "Prof. Daniel Turner holds an M.Sc. in Database Management and specializes in relational databases. His courses provide practical insights into database design and management."
+  },
+  {
+    "id": "15",
+    "name": "Dr. Benjamin Foster",
+    "image": "https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg",
+    "total_courses": 1,
+    "average_rating": 4.75,
+    "teaching_field": "AI",
+    "graduate": true,
+    "experience": "Ph.D. in Artificial Intelligence with a focus on natural language processing",
+    "social_link": {
+      "linkedin": "https://www.linkedin.com/in/benjamin-foster",
+      "twitter": "https://twitter.com/benjaminfoster",
+      "website": "https://www.benjaminfoster-ai.com"
+    },
+    "about": "Dr. Benjamin Foster holds a Ph.D. in Artificial Intelligence with a focus on natural language processing. His courses delve into the fascinating world of AI and language understanding."
+  }
+]
