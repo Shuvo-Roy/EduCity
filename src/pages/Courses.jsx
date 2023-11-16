@@ -4,7 +4,6 @@ import CourseList from "../components/courses/CourseList";
 import programming from "../components/courses/programming.json";
 import { Link } from "react-router-dom";
 import { AiOutlineRight } from "react-icons/ai";
-import { Helmet } from "react-helmet";
 
 export default function Courses() {
   const web = programming.filter((course) => course.category === "web");
