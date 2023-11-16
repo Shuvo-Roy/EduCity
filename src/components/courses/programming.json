@@ -1,9 +1,10 @@
 [
   {
-    "id": "1",
+    "id": "655602601399df5a5c7c4e36",
     "title": "Introduction to Python Programming",
-    "category" :"programming",
-    "teacher": "Dr. Jane Smith",
+    "category": "ai",
+    "teacher": "Dr. Benjamin Foster",
+    "tid": "6555ff146e884b3d81094073",
     "image": "https://img.freepik.com/free-photo/ai-site-helping-with-software-production_1268-21620.jpg",
     "description": "Learn the basics of Python programming language and start building simple applications.",
     "previous_price": 99.99,
@@ -11,21 +12,39 @@
     "enrolled_students": 1200,
     "duration": "8 weeks",
     "reviews": [
-      { "user": "JohnDoe", "rating": 4.5, "comment": "Great course!" },
-      { "user": "Alice123", "rating": 5, "comment": "Very informative." }
+      {
+        "user": "JohnDoe",
+        "rating": 4.5,
+        "comment": "Great course!"
+      },
+      {
+        "user": "Alice123",
+        "rating": 5,
+        "comment": "Very informative."
+      }
     ],
     "month": "January",
     "lessons": [
-      { "title": "Introduction to Python", "duration": "1 hour" },
-      { "title": "Variables and Data Types", "duration": "2 hours" },
-      { "title": "Control Flow", "duration": "1.5 hours" }
+      {
+        "title": "Introduction to Python",
+        "duration": "1 hour"
+      },
+      {
+        "title": "Variables and Data Types",
+        "duration": "2 hours"
+      },
+      {
+        "title": "Control Flow",
+        "duration": "1.5 hours"
+      }
     ]
   },
   {
-    "id": "2",
+    "id": "655602608994dbd98d70cdd7",
     "title": "Web Development Fundamentals",
-    "category" :"web",
-    "teacher": "Prof. Mark Johnson",
+    "category": "web",
+    "teacher": "Prof. Kevin Adams",
+    "tid": "6555ff14a18ffd72ec6aa493",
     "image": "https://img.freepik.com/free-photo/creative-copywriting-commercial-text-seo-editing_107791-15687.jpg",
     "description": "Explore the essentials of web development, including HTML, CSS, and JavaScript.",
     "previous_price": 129.99,
@@ -33,21 +52,39 @@
     "enrolled_students": 800,
     "duration": "10 weeks",
     "reviews": [
-      { "user": "WebMaster45", "rating": 4, "comment": "Good for beginners." },
-      { "user": "CodeNinja", "rating": 4.5, "comment": "Clear explanations." }
+      {
+        "user": "WebMaster45",
+        "rating": 4,
+        "comment": "Good for beginners."
+      },
+      {
+        "user": "CodeNinja",
+        "rating": 4.5,
+        "comment": "Clear explanations."
+      }
     ],
     "month": "February",
     "lessons": [
-      { "title": "HTML Basics", "duration": "1.5 hours" },
-      { "title": "CSS Styling", "duration": "2 hours" },
-      { "title": "Introduction to JavaScript", "duration": "2.5 hours" }
+      {
+        "title": "HTML Basics",
+        "duration": "1.5 hours"
+      },
+      {
+        "title": "CSS Styling",
+        "duration": "2 hours"
+      },
+      {
+        "title": "Introduction to JavaScript",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "3",
+    "id": "655602601bc295c3e8b3cbb1",
     "title": "Data Science with R",
-    "category" :"programming",
+    "category": "programming",
     "teacher": "Prof. Emily Brown",
+    "tid": "6555ff143a8651e0fd1087e3",
     "image": "https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg",
     "description": "Dive into data science using the R programming language and explore statistical analysis.",
     "previous_price": 149.99,
@@ -55,21 +92,39 @@
     "enrolled_students": 600,
     "duration": "12 weeks",
     "reviews": [
-      { "user": "DataExplorer", "rating": 4.8, "comment": "Fantastic course!" },
-      { "user": "StatMaster", "rating": 5, "comment": "In-depth content." }
+      {
+        "user": "DataExplorer",
+        "rating": 4.8,
+        "comment": "Fantastic course!"
+      },
+      {
+        "user": "StatMaster",
+        "rating": 5,
+        "comment": "In-depth content."
+      }
     ],
     "month": "March",
     "lessons": [
-      { "title": "Introduction to R", "duration": "2 hours" },
-      { "title": "Statistical Analysis", "duration": "3 hours" },
-      { "title": "Data Visualization", "duration": "2.5 hours" }
+      {
+        "title": "Introduction to R",
+        "duration": "2 hours"
+      },
+      {
+        "title": "Statistical Analysis",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Data Visualization",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "4",
+    "id": "65560260c9f1f2cfce7f619d",
     "title": "Mobile App Development with React Native",
-    "category" :"web",
-    "teacher": "Dr. Michael Clark",
+    "category": "web",
+    "teacher": "Prof. Kevin Adams",
+    "tid": "6555ff14a18ffd72ec6aa493",
     "image": "https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg",
     "description": "Build cross-platform mobile apps using React Native and enhance your app development skills.",
     "previous_price": 119.99,
@@ -77,7 +132,11 @@
     "enrolled_students": 900,
     "duration": "9 weeks",
     "reviews": [
-      { "user": "AppDevPro", "rating": 4.5, "comment": "Excellent course!" },
+      {
+        "user": "AppDevPro",
+        "rating": 4.5,
+        "comment": "Excellent course!"
+      },
       {
         "user": "ReactFan",
         "rating": 4.7,
@@ -86,16 +145,26 @@
     ],
     "month": "April",
     "lessons": [
-      { "title": "Introduction to React Native", "duration": "2 hours" },
-      { "title": "Building UI Components", "duration": "2.5 hours" },
-      { "title": "State Management", "duration": "2 hours" }
+      {
+        "title": "Introduction to React Native",
+        "duration": "2 hours"
+      },
+      {
+        "title": "Building UI Components",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "State Management",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "5",
+    "id": "6556026004971712511e80cc",
     "title": "Machine Learning Fundamentals",
-    "category" :"ai",
-    "teacher": "Prof. Alex Turner",
+    "category": "ai",
+    "teacher": "Dr. Benjamin Foster",
+    "tid": "6555ff146e884b3d81094073",
     "image": "https://images.pexels.com/photos/4578660/pexels-photo-4578660.jpeg",
     "description": "Explore the basics of machine learning and understand algorithms for predictive analysis.",
     "previous_price": 139.99,
@@ -116,16 +185,26 @@
     ],
     "month": "May",
     "lessons": [
-      { "title": "Introduction to Machine Learning", "duration": "2 hours" },
-      { "title": "Supervised Learning", "duration": "3 hours" },
-      { "title": "Unsupervised Learning", "duration": "2.5 hours" }
+      {
+        "title": "Introduction to Machine Learning",
+        "duration": "2 hours"
+      },
+      {
+        "title": "Supervised Learning",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Unsupervised Learning",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "6",
+    "id": "65560260cfcc5a374b99903b",
     "title": "Ethical Hacking and Cybersecurity",
-    "category" :"cybersecurity",
-    "teacher": "Dr. Alan White",
+    "category": "cybersecurity",
+    "teacher": "Prof. Daniel White",
+    "tid": "6555ff1474ecd93ef661ea0d",
     "image": "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg",
     "description": "Learn ethical hacking techniques and cybersecurity best practices to secure your systems.",
     "previous_price": 159.99,
@@ -146,16 +225,26 @@
     ],
     "month": "June",
     "lessons": [
-      { "title": "Introduction to Ethical Hacking", "duration": "2.5 hours" },
-      { "title": "Network Security", "duration": "3 hours" },
-      { "title": "Penetration Testing", "duration": "2.5 hours" }
+      {
+        "title": "Introduction to Ethical Hacking",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Network Security",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Penetration Testing",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "7",
+    "id": "65560260066252143b16eac7",
     "title": "Blockchain and Cryptocurrency",
-    "category" :"crypto",
-    "teacher": "Prof. Sandra Lee",
+    "category": "crypto",
+    "teacher": "Dr. Jonathan Lee",
+    "tid": "6555ff143c0b30f7b0488fad",
     "image": "https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg",
     "description": "Explore the fundamentals of blockchain technology and the world of cryptocurrencies.",
     "previous_price": 129.99,
@@ -176,16 +265,26 @@
     ],
     "month": "July",
     "lessons": [
-      { "title": "Introduction to Blockchain", "duration": "2 hours" },
-      { "title": "Smart Contracts", "duration": "2.5 hours" },
-      { "title": "Cryptocurrency Investment Strategies", "duration": "2 hours" }
+      {
+        "title": "Introduction to Blockchain",
+        "duration": "2 hours"
+      },
+      {
+        "title": "Smart Contracts",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Cryptocurrency Investment Strategies",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "8",
+    "id": "65560260f279346848e29cd0",
     "title": "Artificial Intelligence: Concepts and Applications",
-    "category" :"ai",
-    "teacher": "Dr. Richard Davis",
+    "category": "ai",
+    "teacher": "Dr. Jonathan Lee",
+    "tid": "6555ff143c0b30f7b0488fad",
     "image": "https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg",
     "description": "Dive into the world of artificial intelligence, from theory to practical applications.",
     "previous_price": 149.99,
@@ -206,16 +305,26 @@
     ],
     "month": "August",
     "lessons": [
-      { "title": "Introduction to AI", "duration": "2.5 hours" },
-      { "title": "Machine Learning Applications", "duration": "3 hours" },
-      { "title": "Natural Language Processing", "duration": "2.5 hours" }
+      {
+        "title": "Introduction to AI",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Machine Learning Applications",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Natural Language Processing",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "9",
+    "id": "6556026097a937fb4e4913d4",
     "title": "React.js Frontend Development",
-    "category" :"web",
+    "category": "web",
     "teacher": "Prof. Sarah Anderson",
+    "tid": "6555ff14ebcff6fce7e06119",
     "image": "https://images.pexels.com/photos/11035371/pexels-photo-11035371.jpeg",
     "description": "Master the React.js library for building interactive user interfaces in web applications.",
     "previous_price": 109.99,
@@ -236,16 +345,25 @@
     ],
     "month": "September",
     "lessons": [
-      { "title": "Introduction to React.js", "duration": "2 hours" },
-      { "title": "Components and Props", "duration": "2.5 hours" },
-      { "title": "State and Lifecycle", "duration": "2 hours" }
+      {
+        "title": "Introduction to React.js",
+        "duration": "2 hours"
+      },
+      {
+        "title": "Components and Props",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "State and Lifecycle",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "10",
+    "id": "65560260826d7776736d0767",
     "title": "Cloud Computing with AWS",
-    "category" :"Cloud",
-    "teacher": "Dr. William Taylor",
+    "category": "Cloud",
+    "teacher": "Dr. William Garcia",
     "image": "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg",
     "description": "Learn to deploy and manage applications on the cloud using Amazon Web Services (AWS).",
     "previous_price": 139.99,
@@ -266,16 +384,26 @@
     ],
     "month": "October",
     "lessons": [
-      { "title": "Introduction to Cloud Computing", "duration": "2 hours" },
-      { "title": "AWS Services Overview", "duration": "3 hours" },
-      { "title": "Deploying Applications on AWS", "duration": "2.5 hours" }
+      {
+        "title": "Introduction to Cloud Computing",
+        "duration": "2 hours"
+      },
+      {
+        "title": "AWS Services Overview",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Deploying Applications on AWS",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "11",
+    "id": "65560260ad01e3c883e06cce",
     "title": "UI/UX Design Principles",
-    "category" :"web",
-    "teacher": "Prof. Jennifer Davis",
+    "category": "web",
+    "teacher": "Prof. Emma Davis",
+    "tid": "6555ff14c841688382be2bbb",
     "image": "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg",
     "description": "Explore the principles of user interface and user experience design for effective digital products.",
     "previous_price": 119.99,
@@ -296,16 +424,26 @@
     ],
     "month": "November",
     "lessons": [
-      { "title": "Introduction to UI/UX Design", "duration": "2 hours" },
-      { "title": "Wireframing and Prototyping", "duration": "2.5 hours" },
-      { "title": "Usability Testing", "duration": "2 hours" }
+      {
+        "title": "Introduction to UI/UX Design",
+        "duration": "2 hours"
+      },
+      {
+        "title": "Wireframing and Prototyping",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Usability Testing",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "12",
+    "id": "65560260e6b8cb8dbe287a41",
     "title": "Cybersecurity: Threats and Countermeasures",
-    "category" :"cybersecurity",
-    "teacher": "Dr. Robert Harris",
+    "category": "cybersecurity",
+    "teacher": "Dr. Robert Turner",
+    "tid": "6555ff1485e2ac9e90585bd3",
     "image": "https://images.pexels.com/photos/5980856/pexels-photo-5980856.jpeg",
     "description": "Explore advanced cybersecurity concepts and learn techniques to counter cyber threats.",
     "previous_price": 159.99,
@@ -326,16 +464,26 @@
     ],
     "month": "December",
     "lessons": [
-      { "title": "Advanced Threats", "duration": "2.5 hours" },
-      { "title": "Incident Response and Recovery", "duration": "3 hours" },
-      { "title": "Security Best Practices", "duration": "2.5 hours" }
+      {
+        "title": "Advanced Threats",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Incident Response and Recovery",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Security Best Practices",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "13",
+    "id": "6556026063dc325891ed6ec9",
     "title": "Advanced Machine Learning",
-    "category" :"ai",
-    "teacher": "Prof. Olivia Garcia",
+    "category": "ai",
+    "teacher": "Dr. William Garcia",
+    "tid": "6555ff14a800570122329d0c",
     "image": "advanced_ml_image.jpg",
     "description": "Explore advanced topics in machine learning, including deep learning and neural networks.",
     "previous_price": 159.99,
@@ -356,16 +504,26 @@
     ],
     "month": "January",
     "lessons": [
-      { "title": "Deep Learning Fundamentals", "duration": "2.5 hours" },
-      { "title": "Neural Networks Architecture", "duration": "3 hours" },
-      { "title": "Advanced ML Applications", "duration": "2.5 hours" }
+      {
+        "title": "Deep Learning Fundamentals",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Neural Networks Architecture",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Advanced ML Applications",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "14",
+    "id": "655602607698f98017a800cb",
     "title": "React.js Advanced Techniques",
-    "category" :"web",
-    "teacher": "Dr. Michael Johnson",
+    "category": "web",
+    "teacher": "Prof. Sarah Anderson",
+    "tid": "6555ff14ebcff6fce7e06119",
     "image": "reactjs_advanced_image.jpg",
     "description": "Master advanced techniques in React.js for building scalable and performant web applications.",
     "previous_price": 129.99,
@@ -386,16 +544,26 @@
     ],
     "month": "February",
     "lessons": [
-      { "title": "Advanced State Management", "duration": "2.5 hours" },
-      { "title": "Optimizing Performance", "duration": "3 hours" },
-      { "title": "Server-Side Rendering", "duration": "2 hours" }
+      {
+        "title": "Advanced State Management",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Optimizing Performance",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Server-Side Rendering",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "15",
+    "id": "655602603f6aeac26df79bb8",
     "title": "Database Design and Optimization",
-    "category" :"database",
-    "teacher": "Prof. David Miller",
+    "category": "database",
+    "teacher": "Prof. Daniel Turner",
+    "tid": "6555ff140f7436e0ae84b5ce",
     "image": "database_optimization_image.jpg",
     "description": "Learn the principles of effective database design and optimization techniques for better performance.",
     "previous_price": 139.99,
@@ -416,16 +584,26 @@
     ],
     "month": "March",
     "lessons": [
-      { "title": "Database Modeling", "duration": "2.5 hours" },
-      { "title": "Indexing and Query Optimization", "duration": "3 hours" },
-      { "title": "Normalization Techniques", "duration": "2 hours" }
+      {
+        "title": "Database Modeling",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Indexing and Query Optimization",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Normalization Techniques",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "16",
+    "id": "65560260dc27667276d9a9dd",
     "title": "Natural Language Processing Fundamentals",
-    "category" :"ai",
+    "category": "ai",
     "teacher": "Dr. Sophia Rodriguez",
+    "tid": "6555ff1443e7bd715fed76dc",
     "image": "nlp_fundamentals_image.jpg",
     "description": "Gain a foundational understanding of natural language processing and its applications.",
     "previous_price": 119.99,
@@ -446,16 +624,26 @@
     ],
     "month": "April",
     "lessons": [
-      { "title": "Introduction to NLP", "duration": "2 hours" },
-      { "title": "Text Classification", "duration": "2.5 hours" },
-      { "title": "Named Entity Recognition", "duration": "2 hours" }
+      {
+        "title": "Introduction to NLP",
+        "duration": "2 hours"
+      },
+      {
+        "title": "Text Classification",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Named Entity Recognition",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "17",
+    "id": "655602606a407fc0c3129715",
     "title": "Full-Stack Web Development Bootcamp",
-    "category" :"web",
+    "category": "web",
     "teacher": "Prof. Kevin Adams",
+    "tid": "6555ff14a18ffd72ec6aa493",
     "image": "fullstack_bootcamp_image.jpg",
     "description": "Become a full-stack developer by mastering both frontend and backend web development.",
     "previous_price": 249.99,
@@ -476,16 +664,26 @@
     ],
     "month": "May",
     "lessons": [
-      { "title": "HTML and CSS Basics", "duration": "2.5 hours" },
-      { "title": "JavaScript Fundamentals", "duration": "3 hours" },
-      { "title": "Node.js and Express.js", "duration": "3 hours" }
+      {
+        "title": "HTML and CSS Basics",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "JavaScript Fundamentals",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Node.js and Express.js",
+        "duration": "3 hours"
+      }
     ]
   },
   {
-    "id": "18",
+    "id": "65560260fedf7c3fdfc6dc78",
     "title": "SQL Mastery: Advanced Querying",
-    "category" :"database",
+    "category": "database",
     "teacher": "Dr. Linda Turner",
+    "tid": "6555ff146105f083062dabaf",
     "image": "sql_advanced_image.jpg",
     "description": "Dive deep into SQL with advanced querying techniques and optimization strategies.",
     "previous_price": 129.99,
@@ -506,16 +704,26 @@
     ],
     "month": "June",
     "lessons": [
-      { "title": "Advanced Joins", "duration": "2.5 hours" },
-      { "title": "Subqueries and CTEs", "duration": "3 hours" },
-      { "title": "Query Performance Tuning", "duration": "2.5 hours" }
+      {
+        "title": "Advanced Joins",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Subqueries and CTEs",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Query Performance Tuning",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "19",
+    "id": "65560260e9db209f8bc3c380",
     "title": "Computer Vision Basics",
-    "category" :"computer",
+    "category": "computer",
     "teacher": "Prof. Daniel White",
+    "tid": "6555ff1474ecd93ef661ea0d",
     "image": "computer_vision_image.jpg",
     "description": "Explore the fundamentals of computer vision and image processing.",
     "previous_price": 139.99,
@@ -536,16 +744,26 @@
     ],
     "month": "July",
     "lessons": [
-      { "title": "Image Filtering and Enhancement", "duration": "2.5 hours" },
-      { "title": "Object Detection", "duration": "3 hours" },
-      { "title": "Image Classification", "duration": "2.5 hours" }
+      {
+        "title": "Image Filtering and Enhancement",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Object Detection",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Image Classification",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "20",
+    "id": "65560260ccc3b70def3f8c4d",
     "title": "React.js and Redux for State Management",
-    "category" :"web",
+    "category": "web",
     "teacher": "Dr. Emily Clark",
+    "tid": "6555ff143a8651e0fd1087e3",
     "image": "reactjs_redux_image.jpg",
     "description": "Master state management in React.js applications using Redux.",
     "previous_price": 119.99,
@@ -566,16 +784,26 @@
     ],
     "month": "August",
     "lessons": [
-      { "title": "Introduction to Redux", "duration": "2.5 hours" },
-      { "title": "Actions and Reducers", "duration": "2.5 hours" },
-      { "title": "Advanced Redux Concepts", "duration": "2 hours" }
+      {
+        "title": "Introduction to Redux",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Actions and Reducers",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Advanced Redux Concepts",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "21",
+    "id": "65560260132be7c5fa8fe04f",
     "title": "MongoDB for Beginners",
-    "category" :"database",
+    "category": "database",
     "teacher": "Prof. Maria Sanchez",
+    "tid": "6555ff14d29e868bf0f5b653",
     "image": "mongodb_beginners_image.jpg",
     "description": "Learn the basics of MongoDB and NoSQL database design for beginners.",
     "previous_price": 99.99,
@@ -596,16 +824,26 @@
     ],
     "month": "September",
     "lessons": [
-      { "title": "Introduction to NoSQL", "duration": "2 hours" },
-      { "title": "MongoDB Basics", "duration": "2.5 hours" },
-      { "title": "Querying and Indexing", "duration": "1.5 hours" }
+      {
+        "title": "Introduction to NoSQL",
+        "duration": "2 hours"
+      },
+      {
+        "title": "MongoDB Basics",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Querying and Indexing",
+        "duration": "1.5 hours"
+      }
     ]
   },
   {
-    "id": "22",
+    "id": "655602600edd59a2cc373fa4",
     "title": "Artificial Intelligence in Healthcare",
-    "category" :"ai",
+    "category": "ai",
     "teacher": "Dr. Jonathan Lee",
+    "tid": "6555ff143c0b30f7b0488fad",
     "image": "ai_healthcare_image.jpg",
     "description": "Explore the applications of artificial intelligence in the healthcare industry.",
     "previous_price": 149.99,
@@ -626,16 +864,26 @@
     ],
     "month": "October",
     "lessons": [
-      { "title": "Health Data Analytics", "duration": "2.5 hours" },
-      { "title": "AI-driven Diagnostics", "duration": "3 hours" },
-      { "title": "Medical Image Analysis", "duration": "2.5 hours" }
+      {
+        "title": "Health Data Analytics",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "AI-driven Diagnostics",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Medical Image Analysis",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "23",
+    "id": "655602604786f795380dec86",
     "title": "Angular Framework: Advanced Topics",
-    "category" :"web",
+    "category": "web",
     "teacher": "Prof. Christopher Brown",
+    "tid": "6555ff1480b476cbda65ae77",
     "image": "angular_advanced_image.jpg",
     "description": "Master advanced topics in the Angular framework for building robust web applications.",
     "previous_price": 129.99,
@@ -660,15 +908,22 @@
         "title": "Angular Services and Dependency Injection",
         "duration": "2.5 hours"
       },
-      { "title": "Advanced Routing and Navigation", "duration": "2.5 hours" },
-      { "title": "NgRx State Management", "duration": "2 hours" }
+      {
+        "title": "Advanced Routing and Navigation",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "NgRx State Management",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "24",
+    "id": "6556026019069964b328679c",
     "title": "Database Administration with MySQL",
-    "category" :"database",
+    "category": "database",
     "teacher": "Dr. Robert Turner",
+    "tid": "6555ff1485e2ac9e90585bd3",
     "image": "mysql_admin_image.jpg",
     "description": "Learn the essentials of MySQL database administration and optimization.",
     "previous_price": 119.99,
@@ -693,15 +948,22 @@
         "title": "MySQL Installation and Configuration",
         "duration": "2.5 hours"
       },
-      { "title": "Backup and Recovery Strategies", "duration": "3 hours" },
-      { "title": "Performance Tuning", "duration": "2.5 hours" }
+      {
+        "title": "Backup and Recovery Strategies",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Performance Tuning",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "25",
+    "id": "65560260c824d71574d8a86f",
     "title": "Cybersecurity for Web Developers",
-    "category" :"cybersecurity",
+    "category": "cybersecurity",
     "teacher": "Prof. Emma Davis",
+    "tid": "6555ff14c841688382be2bbb",
     "image": "webdev_cybersecurity_image.jpg",
     "description": "Enhance your web development skills with a focus on cybersecurity best practices.",
     "previous_price": 139.99,
@@ -722,16 +984,26 @@
     ],
     "month": "January",
     "lessons": [
-      { "title": "Web Application Security", "duration": "2.5 hours" },
-      { "title": "Secure Coding Practices", "duration": "3 hours" },
-      { "title": "Incident Response", "duration": "2.5 hours" }
+      {
+        "title": "Web Application Security",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Secure Coding Practices",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Incident Response",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "26",
+    "id": "6556026040311d98c8b745c8",
     "title": "Django Web Framework: Building Scalable Apps",
-    "category" :"web",
+    "category": "web",
     "teacher": "Dr. William Garcia",
+    "tid": "6555ff14a800570122329d0c",
     "image": "django_scalable_image.jpg",
     "description": "Learn to build scalable web applications using the Django web framework.",
     "previous_price": 129.99,
@@ -752,16 +1024,26 @@
     ],
     "month": "February",
     "lessons": [
-      { "title": "Django Models and Views", "duration": "2.5 hours" },
-      { "title": "Scalable Database Design", "duration": "2.5 hours" },
-      { "title": "RESTful API Development", "duration": "2 hours" }
+      {
+        "title": "Django Models and Views",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Scalable Database Design",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "RESTful API Development",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "27",
+    "id": "65560260f470da41ba2fb109",
     "title": "Big Data Analytics with Hadoop",
-    "category" :"dataanalytics",
+    "category": "dataanalytics",
     "teacher": "Prof. Jennifer White",
+    "tid": "6555ff14ead158b8d0266d5e",
     "image": "hadoop_analytics_image.jpg",
     "description": "Explore big data analytics using the Hadoop framework and ecosystem.",
     "previous_price": 149.99,
@@ -782,16 +1064,26 @@
     ],
     "month": "March",
     "lessons": [
-      { "title": "Introduction to Big Data", "duration": "2.5 hours" },
-      { "title": "Hadoop MapReduce", "duration": "3 hours" },
-      { "title": "Big Data Visualization", "duration": "2.5 hours" }
+      {
+        "title": "Introduction to Big Data",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Hadoop MapReduce",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Big Data Visualization",
+        "duration": "2.5 hours"
+      }
     ]
   },
   {
-    "id": "28",
+    "id": "655602605e6377defab31740",
     "title": "Vue.js Frontend Development",
-    "category" :"web",
+    "category": "web",
     "teacher": "Dr. Sarah Miller",
+    "tid": "6555ff14ebcff6fce7e06119",
     "image": "vuejs_image.jpg",
     "description": "Master the Vue.js framework for building interactive and reactive web interfaces.",
     "previous_price": 119.99,
@@ -812,16 +1104,26 @@
     ],
     "month": "April",
     "lessons": [
-      { "title": "Introduction to Vue.js", "duration": "2.5 hours" },
-      { "title": "Vue Components and Props", "duration": "2.5 hours" },
-      { "title": "Vue Router and State Management", "duration": "2 hours" }
+      {
+        "title": "Introduction to Vue.js",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Vue Components and Props",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Vue Router and State Management",
+        "duration": "2 hours"
+      }
     ]
   },
   {
-    "id": "29",
+    "id": "65560260d98a9a53592d3dc1",
     "title": "Introduction to NoSQL Databases",
-    "category" :"database",
+    "category": "database",
     "teacher": "Prof. Daniel Turner",
+    "tid": "6555ff140f7436e0ae84b5ce",
     "image": "nosql_intro_image.jpg",
     "description": "Explore the world of NoSQL databases and their use in modern web development.",
     "previous_price": 99.99,
@@ -842,16 +1144,26 @@
     ],
     "month": "May",
     "lessons": [
-      { "title": "Introduction to NoSQL Databases", "duration": "2 hours" },
-      { "title": "Document-based Databases", "duration": "2.5 hours" },
-      { "title": "Graph and Key-Value Stores", "duration": "1.5 hours" }
+      {
+        "title": "Introduction to NoSQL Databases",
+        "duration": "2 hours"
+      },
+      {
+        "title": "Document-based Databases",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Graph and Key-Value Stores",
+        "duration": "1.5 hours"
+      }
     ]
   },
   {
-    "id": "30",
+    "id": "65560260d18f7e47062be802",
     "title": "AI in Finance: Algorithmic Trading",
-    "category" :"ai",
+    "category": "ai",
     "teacher": "Dr. Benjamin Foster",
+    "tid": "6555ff146e884b3d81094073",
     "image": "ai_finance_image.jpg",
     "description": "Explore the applications of artificial intelligence in algorithmic trading and financial analytics.",
     "previous_price": 149.99,
@@ -872,9 +1184,18 @@
     ],
     "month": "June",
     "lessons": [
-      { "title": "Financial Market Basics", "duration": "2.5 hours" },
-      { "title": "Algorithmic Trading Strategies", "duration": "3 hours" },
-      { "title": "Risk Management in Finance", "duration": "2.5 hours" }
+      {
+        "title": "Financial Market Basics",
+        "duration": "2.5 hours"
+      },
+      {
+        "title": "Algorithmic Trading Strategies",
+        "duration": "3 hours"
+      },
+      {
+        "title": "Risk Management in Finance",
+        "duration": "2.5 hours"
+      }
     ]
   }
 ]

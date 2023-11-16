@@ -17,13 +17,17 @@ export default function Items() {
     },
     {
       id: 4,
-      name: "AI",
+      name: "Artificial Intelligence",
+    },
+    {
+      id: 5,
+      name: "Cyber Security",
     },
   ];
   return (
     <div className="flex flex-col py-16">
       <div className="py-4">
-        <ul className="flex items-center justify-between">
+        <ul className="flex flex-wrap gap-3 items-center justify-center">
           {courses.map((course) => (
             <li
               key={course.id}
@@ -34,13 +38,13 @@ export default function Items() {
           ))}
         </ul>
       </div>
-      <div className="flex items-center justify-center py-4 gap-4">
+      <div className="flex flex-wrap items-center justify-center py-4 gap-4">
         <div className="relative text-gray-600 focus-within:text-gray-400 w-2/4">
           
           <input
             type="search"
             name="q"
-            className="py-4 px-8 text-sm text-white rounded-md focus:outline-none focus:bg-white focus:text-gray-900 w-full"
+            className="py-4 px-8 text-lg text-white rounded-md focus:outline-none focus:bg-white focus:text-gray-900 w-full"
             placeholder="Search Courses, Teacher name"
           />
           <span className="absolute inset-y-0 right-0 flex items-center pr-2">

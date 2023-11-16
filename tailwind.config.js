@@ -15,6 +15,7 @@ export default {
         'cyan' : '#37DFCF',
         'red' : '#FD6363',
         'textColor' : '#1F1C14',
+        'brandPrimary' : '#4caf4f'
       },
     },
   },

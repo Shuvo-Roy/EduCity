@@ -13,7 +13,7 @@ export default function CourseDetail() {
     };
     courseDetails();
   }, [id]);
-
+console.log(course)
   if (!course) {
     // You might want to add a loading state or error handling here
     return <div>Loading...</div>;
@@ -47,7 +47,7 @@ export default function CourseDetail() {
               </span>
               <span className="flex items-center gap-1">
                 <p className="text-xl">Instructor :</p>
-                <Link to="/" className="font-semibold text-cyan text-xl">
+                <Link to={`/teacher/${course.tid}`} className="font-semibold text-cyan text-xl">
                   {course.teacher}
                 </Link>
               </span>

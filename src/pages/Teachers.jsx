@@ -13,7 +13,7 @@ export default function Teachers() {
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-2">
             {teachers.map((teacher,index)=>{
                 return(
-                    <Link to={`/teacher/${teacher.id}`} key={index} className="bg-white p-4 rounded-xl flex flex-col gap-4">
+                    <Link to={`/teacher/${teacher.tid}`} key={index} className="bg-white p-4 rounded-xl flex flex-col gap-4">
                         <div>
                             <img src={teacher.image} alt={teacher.name}/>
                         </div>

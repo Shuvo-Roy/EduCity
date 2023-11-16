@@ -1,7 +1,9 @@
 import React from "react";
 import { CiCalculator2 } from "react-icons/ci";
-import { BsBookHalf,BsCodeSlash } from "react-icons/bs";
+import { BsCodeSlash } from "react-icons/bs";
 import { HiLanguage } from "react-icons/hi2";
+import { MdComputer } from "react-icons/md";
+import { FaDatabase } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -40,30 +42,30 @@ export default function Hero() {
               drawing help children improve their comprehensive knowledge
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 lg:gap-24 gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 lg:gap-24 gap-2">
 
             <div className="bg-white rounded-xl md:my-8">
               <div className=" flex items-center lg:gap-12 gap-4 m-8">
                 <span className="rounded-xl bg-blue bg-opacity-20 p-4">
                   <CiCalculator2 className="text-3xl text-blue" />
                 </span>
-                <h2 className="text-xl">Maths</h2>
+                <h2 className="text-xl">Artificial Intelligence</h2>
               </div>
             </div>
             <div className="bg-white rounded-xl md:my-8">
               <div className=" flex items-center lg:gap-12 gap-4 m-8">
                 <span className="rounded-xl bg-orangeOp bg-opacity-20 p-4">
-                  <BsBookHalf className="text-3xl text-orangeOp" />
+                  <MdComputer className="text-3xl text-orangeOp" />
                 </span>
-                <h2 className="text-xl">Literature</h2>
+                <h2 className="text-xl">Cloud</h2>
               </div>
             </div>
             <div className="bg-white rounded-xl md:my-8">
               <div className=" flex items-center lg:gap-12 gap-4 m-8">
                 <span className="rounded-xl bg-red bg-opacity-20 p-4">
-                  <HiLanguage className="text-3xl text-red" />
+                  <FaDatabase className="text-3xl text-red" />
                 </span>
-                <h2 className="text-xl">English</h2>
+                <h2 className="text-xl">Data Base</h2>
               </div>
             </div>
             <div className="bg-white rounded-xl md:my-8">
@@ -71,14 +73,13 @@ export default function Hero() {
                 <span className="rounded-xl bg-cyan bg-opacity-20 p-4">
                   <BsCodeSlash className="text-3xl text-cyan" />
                 </span>
-                <h2 className="text-xl">Maths</h2>
+                <h2 className="text-xl">Web Development</h2>
               </div>
             </div>
 
 
           </div>
         </div>
-        <div></div>
       </div>
     </section>
   );

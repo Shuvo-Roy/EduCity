@@ -5,7 +5,7 @@ import { PiCertificateLight, PiExamFill } from "react-icons/pi";
 export default function Skills() {
   return (
     <section className="w-10/12 m-auto">
-      <div className="bg-Orange rounded-xl my-12">
+      <div className="bg-orangeOp bg-opacity-90 rounded-xl my-12">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 p-8 gap-4">
           <div className="flex items-center justify-center gap-4">
           <div className="p-4 bg-white bg-opacity-20 rounded-3xl">
