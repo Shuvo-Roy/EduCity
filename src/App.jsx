@@ -8,6 +8,7 @@ import CourseDetail from './pages/CourseDetail'
 import Teachers from './pages/Teachers'
 import TeacherDetails from './pages/TeacherDetails'
 import SignUp from './pages/SignUp'
+import LogIn from './pages/LogIn'
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path:"/signup",
         element: <SignUp/>,
+      },
+      {
+        path:"/login",
+        element: <LogIn/>,
       }
     ]
   }

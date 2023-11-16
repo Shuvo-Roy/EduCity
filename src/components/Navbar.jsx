@@ -64,7 +64,7 @@ export default function Navbar() {
 
           <div className="space-x-4 invisible md:visible lg:visible xl:visible lg:flex items-center">
             <a
-              href="/"
+              href="/login"
               className="hidden lg:flex items-center text-textColor hover:text-orangeOp text-xl font-semibold"
             >
               Login

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SignUp() {
   return (
@@ -166,7 +167,7 @@ export default function SignUp() {
               <div className="flex flex-col gap-2 items-center justify-center">
                 <button className="bg-orangeOp hover:bg-Orange rounded w-full py-2">Create Account</button>
                 <p class="text-lg font-light">
-                      Already have an account ? <a href="#" class="font-medium text-red hover:underline ">Login here</a>
+                      Already have an account ? <Link to={'/login'} class="font-medium text-red hover:underline ">Login here</Link>
                   </p>
               </div>
               
