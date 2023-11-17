@@ -6,29 +6,36 @@ import { Link } from "react-router-dom";
 import { AiOutlineRight } from "react-icons/ai";
 
 export default function Courses() {
-  const web = programming.filter((course) => course.category === "web");
-  const artificial = programming.filter((course) => course.category === "ai");
-  const database = programming.filter(
-    (course) => course.category === "database"
-  );
 
-  
-  const [title, setTitle] =useState("Educity")
+
+  const [title, setTitle] = useState("Educity");
   useEffect(() => {
-    setTitle(document.title = 'Courses');
+    setTitle((document.title = "Courses"));
     return () => {
       // Reset the title when the component unmounts
-      document.title = 'Educity';
+      document.title = "Educity";
     };
   }, []);
+
+  const getRandomCourses = (category) => {
+    const categoryCourses = programming.filter(
+      (course) => course.category === category
+    );
+    const randomCourses = categoryCourses
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 4);
+    return randomCourses;
+  };
+
+  const categories = ["web", "ai", "database","cybersecurity"];
+
   return (
     <section className="bg-bgBack">
       <div className="w-10/12 m-auto">
-
         <div className="py-4 flex items-center gap-1">
-            <h2 className="text-sm text-gray-400">Home</h2>
-            <span>|</span>
-            <h2 className="text-lg text-gray-950">{title}</h2>
+          <h2 className="text-sm text-gray-400">Home</h2>
+          <span>|</span>
+          <h2 className="text-lg text-gray-950">{title}</h2>
         </div>
 
         <div>
@@ -50,30 +57,28 @@ export default function Courses() {
           </div>
           <Items />
 
-          {/**course */}
-          <div className="py-6">
-            <div className="flex justify-between py-4">
-              <h2 className="text-2xl font-semibold">Web Devlopments</h2>
-              <Link to="/" className="flex items-center gap-1">
-                <span>See more</span>
-                <AiOutlineRight />
-              </Link>
+          {categories.map((category, index) => (
+            <div className="py-6" key={index}>
+              <div className="flex justify-between py-4">
+                <h2 className="text-2xl font-semibold">
+                  {category === "web"
+                    ? "Web Development"
+                    : category === "ai"
+                    ? "Artificial Intelligence"
+                    : category === "database"
+                    ? "Database"
+                    : category === "cybersecurity"
+                    ? "Cyber Security"
+                    : ""}
+                </h2>
+                <Link to={`/courses/${category}`} className="flex items-center gap-1" courses={getRandomCourses(category)}>
+                  <span>See more</span>
+                  <AiOutlineRight />
+                </Link>
+              </div>
+              <CourseList courses={getRandomCourses(category)} />
             </div>
-            <CourseList courses={web} />
-          </div>
-          {/**course */}
-          <div className="py-6">
-            <div className="flex justify-between py-4">
-              <h2 className="text-2xl font-semibold">Artificial Inteligents</h2>
-              <Link to="/" className="flex items-center gap-1">
-                <span>See more</span>
-                <AiOutlineRight />
-              </Link>
-            </div>
-            <CourseList courses={artificial} />
-          </div>
-
-          <div></div>
+          ))}
         </div>
       </div>
     </section>

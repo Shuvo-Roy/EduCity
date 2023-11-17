@@ -9,6 +9,7 @@ import Teachers from './pages/Teachers'
 import TeacherDetails from './pages/TeacherDetails'
 import SignUp from './pages/SignUp'
 import LogIn from './pages/LogIn'
+import CoursesList from './pages/CoursesList'
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path:"/courses",
         element: <Courses/>,
+      },
+      {
+        path:"/courses/:category",
+        element: <CoursesList/>,
       },
       {
         path:"/course/:id",
