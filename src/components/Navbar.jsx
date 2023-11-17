@@ -36,9 +36,9 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="w-full top-0 left-0 right-0 bg-white sticky">
+    <header className="w-full top-0 left-0 right-0 bg-white z-50 sticky">
       <nav
-        className={`py-2 w-10/12 m-auto bg-white ${
+        className={`py-2 w-10/12 m-auto ${
           isMenuSticky ? "top-0 left-0 right-0 duration-300" : ""
         }`}
       >
