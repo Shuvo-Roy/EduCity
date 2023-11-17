@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import teachers from "./teacher.json";
 import programming from "../components/courses/programming.json";
 import { FaLinkedin } from "react-icons/fa";
@@ -118,9 +118,9 @@ export default function TeacherDetails() {
             <div  className="flex flex-col gap-4 bg-white p-8 rounded-xl">
             <h2 className="text-2xl font-semibold">Courses</h2>
               {course && (
-                <div className="flex items-center gap-4">
+                <Link to={`/course/${course.id}`} className="flex items-center gap-4">
                   <div>
-                    <img src={course.image} />
+                    <img src={course.image} className="w-20 h-20"/>
                   </div>
                   <div>
                     <h2 className="font-semibold">{course.title}</h2>
@@ -137,7 +137,7 @@ export default function TeacherDetails() {
                       </p>
                     </span>
                   </div>
-                </div>
+                </Link>
               )}
             </div>
           </div>

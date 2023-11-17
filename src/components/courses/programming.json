@@ -484,7 +484,7 @@
     "category": "ai",
     "teacher": "Dr. William Garcia",
     "tid": "6555ff14a800570122329d0c",
-    "image": "advanced_ml_image.jpg",
+    "image": "https://img.freepik.com/free-vector/cogs-gears-teamwork-concept-symbol_98292-4444.jpg",
     "description": "Explore advanced topics in machine learning, including deep learning and neural networks.",
     "previous_price": 159.99,
     "latest_price": 129.99,
@@ -524,7 +524,7 @@
     "category": "web",
     "teacher": "Prof. Sarah Anderson",
     "tid": "6555ff14ebcff6fce7e06119",
-    "image": "reactjs_advanced_image.jpg",
+    "image": "https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept-bright-vibrant-violet-isolated-illustration_335657-986.jpg",
     "description": "Master advanced techniques in React.js for building scalable and performant web applications.",
     "previous_price": 129.99,
     "latest_price": 99.99,
@@ -564,7 +564,7 @@
     "category": "database",
     "teacher": "Prof. Daniel Turner",
     "tid": "6555ff140f7436e0ae84b5ce",
-    "image": "database_optimization_image.jpg",
+    "image": "https://img.freepik.com/free-vector/computer-technology-isometric-icon-server-room-digital-device-set-element-design-pc-laptop_39422-1026.jpg",
     "description": "Learn the principles of effective database design and optimization techniques for better performance.",
     "previous_price": 139.99,
     "latest_price": 109.99,
@@ -604,7 +604,7 @@
     "category": "ai",
     "teacher": "Dr. Sophia Rodriguez",
     "tid": "6555ff1443e7bd715fed76dc",
-    "image": "nlp_fundamentals_image.jpg",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-speech-therapy-illustration_23-2149214837.jpg",
     "description": "Gain a foundational understanding of natural language processing and its applications.",
     "previous_price": 119.99,
     "latest_price": 89.99,
@@ -644,7 +644,7 @@
     "category": "web",
     "teacher": "Prof. Kevin Adams",
     "tid": "6555ff14a18ffd72ec6aa493",
-    "image": "fullstack_bootcamp_image.jpg",
+    "image": "https://img.freepik.com/free-vector/artificial-intelligence-isometric-icon-server-room-datacenter-database-concept_39422-772.jpg",
     "description": "Become a full-stack developer by mastering both frontend and backend web development.",
     "previous_price": 249.99,
     "latest_price": 199.99,
@@ -684,7 +684,7 @@
     "category": "database",
     "teacher": "Dr. Linda Turner",
     "tid": "6555ff146105f083062dabaf",
-    "image": "sql_advanced_image.jpg",
+    "image": "https://img.freepik.com/free-vector/analytics-data-science-database-analysis-statistical-report-information-processing-automation-datacenter-expert-making-report-vector-isolated-concept-metaphor-illustration_335657-2781.jpg",
     "description": "Dive deep into SQL with advanced querying techniques and optimization strategies.",
     "previous_price": 129.99,
     "latest_price": 99.99,
@@ -719,52 +719,12 @@
     ]
   },
   {
-    "id": "65560260e9db209f8bc3c380",
-    "title": "Computer Vision Basics",
-    "category": "computer",
-    "teacher": "Prof. Daniel White",
-    "tid": "6555ff1474ecd93ef661ea0d",
-    "image": "computer_vision_image.jpg",
-    "description": "Explore the fundamentals of computer vision and image processing.",
-    "previous_price": 139.99,
-    "latest_price": 109.99,
-    "enrolled_students": 700,
-    "duration": "9 weeks",
-    "reviews": [
-      {
-        "user": "CVEnthusiast",
-        "rating": 4.8,
-        "comment": "Fascinating course on computer vision."
-      },
-      {
-        "user": "ImageProcessingPro",
-        "rating": 4.7,
-        "comment": "Practical projects are impressive."
-      }
-    ],
-    "month": "July",
-    "lessons": [
-      {
-        "title": "Image Filtering and Enhancement",
-        "duration": "2.5 hours"
-      },
-      {
-        "title": "Object Detection",
-        "duration": "3 hours"
-      },
-      {
-        "title": "Image Classification",
-        "duration": "2.5 hours"
-      }
-    ]
-  },
-  {
     "id": "65560260ccc3b70def3f8c4d",
     "title": "React.js and Redux for State Management",
     "category": "web",
     "teacher": "Dr. Emily Clark",
     "tid": "6555ff143a8651e0fd1087e3",
-    "image": "reactjs_redux_image.jpg",
+    "image": "https://img.freepik.com/free-vector/users-working-laptops-with-data-entry-big-data-services-technology-information-entry-equipment-database-update-data-management-concept-vector-isolated-illustration_335657-2149.jpg",
     "description": "Master state management in React.js applications using Redux.",
     "previous_price": 119.99,
     "latest_price": 89.99,
@@ -804,7 +764,7 @@
     "category": "database",
     "teacher": "Prof. Maria Sanchez",
     "tid": "6555ff14d29e868bf0f5b653",
-    "image": "mongodb_beginners_image.jpg",
+    "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
     "description": "Learn the basics of MongoDB and NoSQL database design for beginners.",
     "previous_price": 99.99,
     "latest_price": 79.99,
@@ -844,7 +804,7 @@
     "category": "ai",
     "teacher": "Dr. Jonathan Lee",
     "tid": "6555ff143c0b30f7b0488fad",
-    "image": "ai_healthcare_image.jpg",
+    "image": "https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg",
     "description": "Explore the applications of artificial intelligence in the healthcare industry.",
     "previous_price": 149.99,
     "latest_price": 119.99,
@@ -884,7 +844,7 @@
     "category": "web",
     "teacher": "Prof. Christopher Brown",
     "tid": "6555ff1480b476cbda65ae77",
-    "image": "angular_advanced_image.jpg",
+    "image": "https://images.pexels.com/photos/907487/pexels-photo-907487.jpeg",
     "description": "Master advanced topics in the Angular framework for building robust web applications.",
     "previous_price": 129.99,
     "latest_price": 99.99,
@@ -924,7 +884,7 @@
     "category": "database",
     "teacher": "Dr. Robert Turner",
     "tid": "6555ff1485e2ac9e90585bd3",
-    "image": "mysql_admin_image.jpg",
+    "image": "https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg",
     "description": "Learn the essentials of MySQL database administration and optimization.",
     "previous_price": 119.99,
     "latest_price": 89.99,
@@ -964,7 +924,7 @@
     "category": "cybersecurity",
     "teacher": "Prof. Emma Davis",
     "tid": "6555ff14c841688382be2bbb",
-    "image": "webdev_cybersecurity_image.jpg",
+    "image": "https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg",
     "description": "Enhance your web development skills with a focus on cybersecurity best practices.",
     "previous_price": 139.99,
     "latest_price": 109.99,
@@ -1004,7 +964,7 @@
     "category": "web",
     "teacher": "Dr. William Garcia",
     "tid": "6555ff14a800570122329d0c",
-    "image": "django_scalable_image.jpg",
+    "image": "https://images.pexels.com/photos/7325498/pexels-photo-7325498.jpeg",
     "description": "Learn to build scalable web applications using the Django web framework.",
     "previous_price": 129.99,
     "latest_price": 99.99,
@@ -1039,52 +999,12 @@
     ]
   },
   {
-    "id": "65560260f470da41ba2fb109",
-    "title": "Big Data Analytics with Hadoop",
-    "category": "dataanalytics",
-    "teacher": "Prof. Jennifer White",
-    "tid": "6555ff14ead158b8d0266d5e",
-    "image": "hadoop_analytics_image.jpg",
-    "description": "Explore big data analytics using the Hadoop framework and ecosystem.",
-    "previous_price": 149.99,
-    "latest_price": 119.99,
-    "enrolled_students": 600,
-    "duration": "8 weeks",
-    "reviews": [
-      {
-        "user": "BigDataAnalyst",
-        "rating": 4.8,
-        "comment": "In-depth coverage of Hadoop for analytics."
-      },
-      {
-        "user": "DataSciencePro",
-        "rating": 4.7,
-        "comment": "Practical applications explained well."
-      }
-    ],
-    "month": "March",
-    "lessons": [
-      {
-        "title": "Introduction to Big Data",
-        "duration": "2.5 hours"
-      },
-      {
-        "title": "Hadoop MapReduce",
-        "duration": "3 hours"
-      },
-      {
-        "title": "Big Data Visualization",
-        "duration": "2.5 hours"
-      }
-    ]
-  },
-  {
     "id": "655602605e6377defab31740",
     "title": "Vue.js Frontend Development",
     "category": "web",
     "teacher": "Dr. Sarah Miller",
     "tid": "6555ff14ebcff6fce7e06119",
-    "image": "vuejs_image.jpg",
+    "image": "https://images.pexels.com/photos/4578665/pexels-photo-4578665.jpeg",
     "description": "Master the Vue.js framework for building interactive and reactive web interfaces.",
     "previous_price": 119.99,
     "latest_price": 89.99,
@@ -1124,7 +1044,7 @@
     "category": "database",
     "teacher": "Prof. Daniel Turner",
     "tid": "6555ff140f7436e0ae84b5ce",
-    "image": "nosql_intro_image.jpg",
+    "image": "https://images.pexels.com/photos/1972464/pexels-photo-1972464.jpeg",
     "description": "Explore the world of NoSQL databases and their use in modern web development.",
     "previous_price": 99.99,
     "latest_price": 79.99,
@@ -1164,7 +1084,7 @@
     "category": "ai",
     "teacher": "Dr. Benjamin Foster",
     "tid": "6555ff146e884b3d81094073",
-    "image": "ai_finance_image.jpg",
+    "image": "https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg",
     "description": "Explore the applications of artificial intelligence in algorithmic trading and financial analytics.",
     "previous_price": 149.99,
     "latest_price": 119.99,

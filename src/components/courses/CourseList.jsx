@@ -17,7 +17,7 @@ export default function CourseList({courses}) {
             <div>
               <h2 className="text-lg font-semibold">{course.title}</h2>
               <p className="text-base text-gray-500 leading-6">
-                Instructor : {course.teacher}
+                Instructor : <Link to={`/teacher/${course.tid}`}>{course.teacher}</Link>
               </p>
             </div>
 
