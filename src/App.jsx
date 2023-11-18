@@ -1,69 +1,73 @@
-import React from 'react'
-import './App.css'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Layout from './Layout'
-import Landing from './pages/Landing'
-import Courses from './pages/Courses'
-import CourseDetail from './pages/CourseDetail'
-import Teachers from './pages/Teachers'
-import TeacherDetails from './pages/TeacherDetails'
-import SignUp from './pages/SignUp'
-import LogIn from './pages/LogIn'
-import CoursesList from './pages/CoursesList'
-import Pricing from './pages/Pricing'
+import React from "react";
+import "./App.css";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Layout from "./Layout";
+import Landing from "./pages/Landing";
+import Courses from "./pages/Courses";
+import CourseDetail from "./pages/CourseDetail";
+import Teachers from "./pages/Teachers";
+import TeacherDetails from "./pages/TeacherDetails";
+import SignUp from "./pages/SignUp";
+import LogIn from "./pages/LogIn";
+import CoursesList from "./pages/CoursesList";
+import Pricing from "./pages/Pricing";
+import TeacherDash from "./pages/dashboard/TeacherDash";
 
 const router = createBrowserRouter([
   {
-    path:"/",
-    element: <Layout/>,
-    children:[
+    path: "/",
+    element: <Layout />,
+    children: [
       {
-        path:"/",
-        element: <Landing/>,
+        path: "/",
+        element: <Landing />,
       },
       {
-        path:"/courses",
-        element: <Courses/>,
+        path: "/courses",
+        element: <Courses />,
       },
       {
-        path:"/courses/:category",
-        element: <CoursesList/>,
+        path: "/courses/:category",
+        element: <CoursesList />,
       },
       {
-        path:"/course/:id",
-        element: <CourseDetail/>,
+        path: "/course/:id",
+        element: <CourseDetail />,
       },
       {
-        path:"/teachers",
-        element: <Teachers/>,
+        path: "/teachers",
+        element: <Teachers />,
       },
       {
-        path:"/teacher/:tid",
-        element: <TeacherDetails/>,
+        path: "/teacher/:tid",
+        element: <TeacherDetails />,
       },
       {
-        path:"/signup",
-        element: <SignUp/>,
+        path: "/signup",
+        element: <SignUp />,
       },
       {
-        path:"/login",
-        element: <LogIn/>,
+        path: "/login",
+        element: <LogIn />,
       },
       {
-        path:"/pricing",
-        element: <Pricing/>,
-      }
-    ]
-  }
-])
-
+        path: "/pricing",
+        element: <Pricing />,
+      },
+    ],
+  },
+  {
+    path: "/teacher/dash",
+    element: <TeacherDash />,
+  },
+]);
 
 function App() {
   return (
     <React.Fragment>
-     <RouterProvider  router={router}/>
+      <RouterProvider router={router} />
     </React.Fragment>
-  )
+  );
 }
 
-export default App
+export default App;
