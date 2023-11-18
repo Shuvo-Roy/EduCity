@@ -10,6 +10,7 @@ import TeacherDetails from './pages/TeacherDetails'
 import SignUp from './pages/SignUp'
 import LogIn from './pages/LogIn'
 import CoursesList from './pages/CoursesList'
+import Pricing from './pages/Pricing'
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path:"/login",
         element: <LogIn/>,
+      },
+      {
+        path:"/pricing",
+        element: <Pricing/>,
       }
     ]
   }

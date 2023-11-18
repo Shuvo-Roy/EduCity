@@ -31,7 +31,7 @@ export default function Navbar() {
     { link: "Home", path: "/" },
     { link: "Courses", path: "courses" },
     { link: "Teacher", path: "teachers" },
-    { link: "How to use", path: "use" },
+    { link: "Pricing", path: "pricing" },
     { link: "About Us", path: "aboutus" },
   ];
 
