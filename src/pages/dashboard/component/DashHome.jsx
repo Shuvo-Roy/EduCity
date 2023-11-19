@@ -1,5 +1,6 @@
 import React from 'react'
 import DashNav from './DashNav'
+import TotalCount from './TotalCount'
 
 export default function DashHome({teacher}) {
   return (
@@ -8,8 +9,8 @@ export default function DashHome({teacher}) {
             <div>
                 <DashNav teacher={teacher}/>
             </div>
-            <div>
-                
+            <div className='p-4'>
+                <TotalCount/>
             </div>
         </div>
     </section>
