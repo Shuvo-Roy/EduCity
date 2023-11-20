@@ -2,6 +2,7 @@ import React from 'react'
 import DashNav from './DashNav'
 import TotalCount from './TotalCount'
 import TopCourse from './TopCourse'
+import Chart from './Chart'
 
 export default function DashHome({teacher}) {
   return (
@@ -15,6 +16,9 @@ export default function DashHome({teacher}) {
             </div>
             <div>
               <TopCourse teacher={teacher}/>
+            </div>
+            <div>
+              <Chart/>
             </div>
         </div>
     </section>
