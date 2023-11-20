@@ -11,10 +11,10 @@ export default function TotalCount() {
     { title: "Earning", count: "$1500.00", icon: <FaMoneyBillTrendUp className="text-3xl"/> },
   ];
   return (
-    <div className="flex flex-wrap gap-4 justify-between">
+    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
       {totalcount.map((total, index) => {
         return (
-          <div key={index} className="bg-white flex items-center gap-4  px-8 py-4 justify-between rounded-xl">
+          <div key={index} className="bg-white flex items-center gap-4 px-16 py-4  rounded-xl">
             <span className="p-2 bg-sky-300 rounded-full flex items-center">{total.icon}</span>
             <span>
               <h2 className="text-gray-500">{total.title}</h2>
