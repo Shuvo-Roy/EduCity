@@ -76,7 +76,7 @@ export default function Chart() {
     },
   ];
   return (
-    <div className="py-4">
+    <div className="">
       <div className="px-4">
         <div className="bg-white rounded-xl">
           <div className="p-4">
