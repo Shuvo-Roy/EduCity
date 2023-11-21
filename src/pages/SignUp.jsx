@@ -15,7 +15,6 @@ export default function SignUp() {
                 <div className="w-full px-3 md:mb-0">
                   <label
                     className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-                    for="grid-first-name"
                   >
                     Your Name
                   </label>
@@ -23,7 +22,7 @@ export default function SignUp() {
                     className="appearance-none block w-full text-slate-700 border border-red rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                     id="grid-first-name"
                     type="text"
-                    placeholder="Jane"
+                    placeholder="John Doe"
                   />
                   <p className="text-red text-xs italic">
                     Please fill out this field.
@@ -32,7 +31,6 @@ export default function SignUp() {
                 <div className="w-full px-3">
                   <label
                     className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-                    for="grid-last-name"
                   >
                     College/Institute
                   </label>
@@ -46,7 +44,6 @@ export default function SignUp() {
                 <div className="w-full px-3">
                   <label
                     className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-                    for="grid-last-name"
                   >
                     Subject
                   </label>
@@ -62,7 +59,6 @@ export default function SignUp() {
                 <div className="w-full px-3">
                   <label
                     className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-                    for="grid-password"
                   >
                     Email
                   </label>
@@ -78,51 +74,16 @@ export default function SignUp() {
                 <div className="w-full px-3">
                   <label
                     className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-                    for="grid-password"
                   >
-                    Password
-                  </label>
-                  <input
-                    className="appearance-none block w-full  text-slate-700 border border-slate-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
-                    id="grid-password"
-                    type="password"
-                    placeholder="******************"
-                  />
-                  <p className="text-slate-600 text-xs italic">
-                    provide as strong as you like
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-wrap -mx-3 mb-2">
-                <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                  <label
-                    className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-                    for="grid-city"
-                  >
-                    City
-                  </label>
-                  <input
-                    className="appearance-none block w-full  text-slate-700 border border-slate-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
-                    id="grid-city"
-                    type="text"
-                    placeholder="Dhaka"
-                  />
-                </div>
-                <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                  <label
-                    className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-                    for="grid-state"
-                  >
-                    State
+                    Create as
                   </label>
                   <div className="relative">
                     <select
                       className="block appearance-none w-full border  text-slate-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
                       id="grid-state"
                     >
-                      <option>Gazipur</option>
-                      <option>Uttara</option>
-                      <option>Narayanganj</option>
+                      <option>Student</option>
+                      <option>Instructor</option>
                     </select>
                     <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-700">
                       <svg
@@ -135,28 +96,36 @@ export default function SignUp() {
                     </div>
                   </div>
                 </div>
-                <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                  <label
-                    className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-                    for="grid-zip"
-                  >
-                    Zip
+              </div>
+              <div className="mb-2">
+                <div className="w-full">
+                  <label className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2">
+                    Profile Picture
                   </label>
                   <input
-                    className="appearance-none block w-full  text-slate-700 border border-slate-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
-                    id="grid-zip"
-                    type="text"
-                    placeholder="90210"
+                    className="block w-full text-sm text-gray-700 file:me-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-dbgMain hover:file:bg-emerald-400 file:disabled:opacity-50 file:disabled:pointer-events-none"
+                    type="file"
+                    accept="picture/*"
+                    onChange={(e) =>
+                      handleLessonChange(index, "video", e.target.files[0])
+                    }
                   />
                 </div>
               </div>
               <div className="flex flex-col gap-2 items-center justify-center">
-                <button className="bg-orangeOp hover:bg-Orange rounded w-full py-2">Create Account</button>
+                <button className="bg-orangeOp hover:bg-Orange rounded w-full py-2">
+                  Create Account
+                </button>
                 <p class="text-lg font-light">
-                      Already have an account ? <Link to={'/login'} class="font-medium text-red hover:underline ">Login here</Link>
-                  </p>
+                  Already have an account ?{" "}
+                  <Link
+                    to={"/login"}
+                    class="font-medium text-red hover:underline "
+                  >
+                    Login here
+                  </Link>
+                </p>
               </div>
-              
             </form>
           </div>
         </div>
