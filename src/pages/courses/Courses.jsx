@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Items from "../components/courses/Items";
-import CourseList from "../components/courses/CourseList";
-import programming from "../components/courses/programming.json";
+import Items from "../../components/courses/Items";
+import CourseList from "../../components/courses/CourseList";
+import programming from "../../components/courses/programming.json";
 import { Link } from "react-router-dom";
 import { AiOutlineRight } from "react-icons/ai";
 
 export default function Courses() {
-
-
   const [title, setTitle] = useState("Educity");
   useEffect(() => {
     setTitle((document.title = "Courses"));
@@ -27,7 +25,7 @@ export default function Courses() {
     return randomCourses;
   };
 
-  const categories = ["web", "ai", "database","cybersecurity"];
+  const categories = ["web", "ai", "database", "cybersecurity"];
 
   return (
     <section className="bg-bgBack">
@@ -71,7 +69,11 @@ export default function Courses() {
                     ? "Cyber Security"
                     : ""}
                 </h2>
-                <Link to={`/courses/${category}`} className="flex items-center gap-1" courses={getRandomCourses(category)}>
+                <Link
+                  to={`/courses/${category}`}
+                  className="flex items-center gap-1"
+                  courses={getRandomCourses(category)}
+                >
                   <span>See more</span>
                   <AiOutlineRight />
                 </Link>

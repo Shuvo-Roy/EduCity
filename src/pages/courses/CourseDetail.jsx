@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { CiLock } from "react-icons/ci";
 import { Link, useParams } from "react-router-dom";
-import programming from "../components/courses/programming.json";
+import programming from "../../components/courses/programming.json";
 export default function CourseDetail() {
   const { id } = useParams();
   const [course, setCourse] = useState(null);
@@ -13,7 +13,7 @@ export default function CourseDetail() {
     };
     courseDetails();
   }, [id]);
-console.log(course)
+  console.log(course);
   if (!course) {
     // You might want to add a loading state or error handling here
     return <div>Loading...</div>;
@@ -47,7 +47,10 @@ console.log(course)
               </span>
               <span className="flex items-center gap-1">
                 <p className="text-xl">Instructor :</p>
-                <Link to={`/teacher/${course.tid}`} className="font-semibold text-cyan text-xl">
+                <Link
+                  to={`/teacher/${course.tid}`}
+                  className="font-semibold text-cyan text-xl"
+                >
                   {course.teacher}
                 </Link>
               </span>
@@ -87,20 +90,22 @@ console.log(course)
             <h2 className="text-2xl py-2">Lessons</h2>
             <div className="bg-white p-6 rounded-xl">
               {course.lessons.map((lesson, index) => {
-              return (
-                <div key={index} className="flex items-center justify-between py-2">
-                  <div className="">
-                    <h2 className="text-xl">{lesson.title}</h2>
+                return (
+                  <div
+                    key={index}
+                    className="flex items-center justify-between py-2"
+                  >
+                    <div className="">
+                      <h2 className="text-xl">{lesson.title}</h2>
+                    </div>
+                    <div className="flex items-center justify-center gap-4">
+                      <span className="text-md">{lesson.duration}</span>
+                      <CiLock className="text-red text-2xl" />
+                    </div>
                   </div>
-                  <div className="flex items-center justify-center gap-4">
-                    <span className="text-md">{lesson.duration}</span>
-                    <CiLock className="text-red text-2xl" />
-                  </div>
-                </div>
-              );
-            })}
+                );
+              })}
             </div>
-            
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import teacher from "../teacher.json";
+import teacher from "../teacher/teacher.json";
 import LogoInfo from "./component/LogoInfo";
 import NavItem from "./component/NavItem";
 import DashHome from "./component/DashHome";

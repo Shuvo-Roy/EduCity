@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaBars, FaXmark } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import teacher from "../pages/teacher.json";
+import teacher from "../../pages/teacher/teacher.json";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
