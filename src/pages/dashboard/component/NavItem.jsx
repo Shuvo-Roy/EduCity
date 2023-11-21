@@ -9,27 +9,27 @@ export default function NavItem() {
   const dashItems = [
     {
       link: "Dashborad",
-      path: "/",
+      path: "/teacher/dash",
       icon: <MdDashboard className="text-3xl text-gray-700" />,
     },
     {
-      link: "Course",
-      path: "course",
+      link: "Add Course",
+      path: "/teacher/dash/courses",
       icon: <FaRectangleList className="text-3xl text-gray-700" />,
     },
     {
       link: "Students",
-      path: "students",
+      path: "/students",
       icon: <PiStudent className="text-3xl text-gray-700" />,
     },
     {
       link: "Transaction",
-      path: "transactio",
+      path: "/transaction",
       icon: <FaMoneyCheck className="text-3xl text-gray-700" />,
     },
     {
       link: "Setting",
-      path: "setting",
+      path: "/setting",
       icon: <IoSettings className="text-3xl text-gray-700" />,
     },
   ];
@@ -38,12 +38,15 @@ export default function NavItem() {
       <ul className="flex flex-col gap-4 h-5/6">
         {dashItems.map((item, index) => {
           return (
-            <li
-              key={index}
-              className="flex items-center gap-4  px-4 py-2 first:bg-dbgMain rounded cursor-pointer"
-            >
-              {item.icon}
-              <Link className="text-xl text-gray-700">{item.link}</Link>
+            <li key={index} className="">
+              <Link
+                to={item.path}
+                onClick={item.onClick}
+                className="text-xl text-gray-700 flex items-center gap-4  px-4 py-2 active:bg-dbgMain rounded cursor-pointer"
+              >
+                <span>{item.icon}</span>
+                <span>{item.link}</span>
+              </Link>
             </li>
           );
         })}

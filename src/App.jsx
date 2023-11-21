@@ -12,6 +12,7 @@ import LogIn from "./pages/LogIn";
 import CoursesList from "./pages/CoursesList";
 import Pricing from "./pages/Pricing";
 import TeacherDash from "./pages/dashboard/TeacherDash";
+import TeacherCourses from "./pages/dashboard/TeacherCourses";
 
 const router = createBrowserRouter([
   {
@@ -59,7 +60,16 @@ const router = createBrowserRouter([
   {
     path: "/teacher/dash",
     element: <TeacherDash />,
+    children:[
+      {
+    path: "/teacher/dash/courses",
+    children:[
+      <TeacherCourses/>
+    ]
   },
+    ]
+  },
+  
 ]);
 
 function App() {
