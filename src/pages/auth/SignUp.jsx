@@ -1,16 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function SignUp() {
+
+  const [name,setName] =useState('')
+  const [email,setEmail] = useState('')
+  const [password,setPassword] =useState()
+  const [college,setCollege] = useState()
+  const [subject,setSubject] = useState()
+  const [createAs,setCreateAs] = useState()
+
+  const handleSubmit =(e)=>{
+    const user ={
+      name,
+      email,
+      password,
+      college,
+      subject,
+      createAs,
+    }
+
+    console.log(user)
+  }
+
   return (
     <section className="bg-slate-50">
-      <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+      <div className="flex flex-col items-center justify-center py-8">
         <div className="w-full bg-white rounded-lg md:mt-0 sm:max-w-md xl:p-0">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
             <h1 className="text-2xl font-semibold text-slate-900 md:text-2xl text-center">
               Create and account
             </h1>
-            <form className="w-full max-w-lg">
+            <form className="w-full max-w-lg" onSubmit={(e)=>handleSubmit()}>
               <div className="flex flex-wrap -mx-3 mb-6 gap-4">
                 <div className="w-full px-3 md:mb-0">
                   <label
@@ -20,7 +41,7 @@ export default function SignUp() {
                   </label>
                   <input
                     className="appearance-none block w-full text-slate-700 border border-red rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                    id="grid-first-name"
+                    onChange={(e)=>setName(e.target.value)}
                     type="text"
                     placeholder="John Doe"
                   />
@@ -36,7 +57,7 @@ export default function SignUp() {
                   </label>
                   <input
                     className="appearance-none block w-full  text-slate-700 border border-slate-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
-                    id="grid-last-name"
+                    onChange={(e)=>setCollege(e.target.value)}
                     type="text"
                     placeholder="College/institute name"
                   />
@@ -49,7 +70,7 @@ export default function SignUp() {
                   </label>
                   <input
                     className="appearance-none block w-full  text-slate-700 border border-slate-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
-                    id="grid-last-name"
+                   onChange={(e)=>setSubject(e.target.value)}
                     type="text"
                     placeholder="Computer Science and Engineering"
                   />
@@ -64,10 +85,30 @@ export default function SignUp() {
                   </label>
                   <input
                     className="appearance-none block w-full  text-slate-700 border border-slate-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
-                    id="grid-email"
+                    value={email}
+                    onChange={(e)=>setEmail(e.target.value)}
                     type="email"
                     placeholder="Enter your email"
                   />
+                </div>
+              </div>
+              <div className="flex flex-wrap -mx-3 mb-6">
+                <div className="w-full px-3">
+                  <label
+                    className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
+                  >
+                    Password
+                  </label>
+                  <input
+                    className="appearance-none block w-full  text-slate-700 border border-slate-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
+                    value={password}
+                    onChange={(e)=>setPassword(e.target.value)}
+                    type="password"
+                    placeholder="******************"
+                  />
+                  <p className="text-slate-600 text-xs italic">
+                    provide as strong as you like
+                  </p>
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-6">
@@ -80,10 +121,11 @@ export default function SignUp() {
                   <div className="relative">
                     <select
                       className="block appearance-none w-full border  text-slate-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-slate-500"
-                      id="grid-state"
+                      value={createAs}
+                      onChange={(e)=>setCreateAs(e.target.value)}
                     >
-                      <option>Student</option>
-                      <option>Instructor</option>
+                      <option value="student">Student</option>
+                      <option value="instructor">Instructor</option>
                     </select>
                     <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-700">
                       <svg
@@ -104,10 +146,11 @@ export default function SignUp() {
                   </label>
                   <input
                     className="block w-full text-sm text-gray-700 file:me-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-dbgMain hover:file:bg-emerald-400 file:disabled:opacity-50 file:disabled:pointer-events-none"
+                    
                     type="file"
                     accept="picture/*"
                     onChange={(e) =>
-                      handleLessonChange(index, "video", e.target.files[0])
+                      handleLessonChange("picture", e.target.files[0])
                     }
                   />
                 </div>
@@ -116,11 +159,11 @@ export default function SignUp() {
                 <button className="bg-orangeOp hover:bg-Orange rounded w-full py-2">
                   Create Account
                 </button>
-                <p class="text-lg font-light">
+                <p className="text-lg font-light">
                   Already have an account ?{" "}
                   <Link
                     to={"/login"}
-                    class="font-medium text-red hover:underline "
+                    className="font-medium text-red hover:underline "
                   >
                     Login here
                   </Link>

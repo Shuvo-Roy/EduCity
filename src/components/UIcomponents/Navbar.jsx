@@ -84,7 +84,7 @@ export default function Navbar() {
               </button>
             </Link>
           </div> */}
-          <div class="">
+          <div className="">
             <div
               onClick={toggleItem}
               className="p-1 border border-orangeOp rounded-full "
